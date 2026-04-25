@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Garvit Sharma | Game Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <h2 class="logo">Garvit<span>Sharma</span></h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Games</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Game Developer & Designer</h1>
+            <p>Designing immersive worlds. Creating unforgettable gameplay experiences.</p>
+
+            <button onclick="scrollToContact()">Hire Me</button>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <div class="about-container">
+            <img src="images/profile.png" alt="profile">
+
+            <p>
+                I'm Garvit Sharma, an aspiring Game Designer passionate about crafting
+                interactive gameplay systems and immersive virtual worlds.
+                I focus on mechanics design, storytelling, and player engagement.
+                My goal is to create games that combine creativity, emotion, and technology.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section dark-section">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">Game Mechanics Design</div>
+            <div class="skill-card">Level Design</div>
+            <div class="skill-card">Unreal Basics</div>
+            <div class="skill-card">C++ / JavaScript</div>
+            <div class="skill-card">UI/UX for Games</div>
+            <div class="skill-card">Storyboarding</div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2>Featured Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="images/game1.png">
+                <h3>Jungle Safari</h3>
+                <p>Jungle Safari Animation.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/game2.png">
+                <h3>Parkour</h3>
+                <p>3rd Person Parkour Game with fluid movement mechanics (Ongoing).</p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/game3.png">
+                <h3>First Person Shooter</h3>
+                <p>A FPS Game, including player controls, shooting mechanics, and enemy AI (In Future).</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section dark-section">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+
+    <footer>
+        © 2026 Garvit Sharma | Game Designer Portfolio
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
